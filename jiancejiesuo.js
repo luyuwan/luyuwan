@@ -22,7 +22,7 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
     let panel_result = {
       title: '流媒体解锁检测',
       content: '',
-      icon: 'play.tv.fill',
+      icon: 'lock.open.display',
       'icon-color': 'F61A1A',
     }
   let [{ region, status }] = await Promise.all([testDisneyPlus()])
